@@ -1,7 +1,7 @@
 Summary:        SAX parser access API for Perl
 Name:           perl-XML-SAX
 Version:        0.99
-Release:        8%{?dist}
+Release:        9%{?dist}
 
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -107,6 +107,9 @@ rm -rf "%{perl_vendorlib}/XML/SAX/ParserDetails.ini.backup" || :
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.99-9
+- Mass rebuild 2013-12-27
+
 * Thu Nov 22 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.99-8
 - Create script generate-tarball.sh which remove xmltest.xml from source
   tarball
